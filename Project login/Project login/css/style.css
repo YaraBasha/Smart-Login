@@ -1,0 +1,57 @@
+body {
+    background-color: #24353f;
+    background-size: cover;
+    background-position: top;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.group,
+.welcome,
+header {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+    background: #24353f;
+}
+
+h1 {
+    color: #0dcaf0;
+}
+
+button:hover {
+    color: white;
+}
+
+.btn-outline-info:focus {
+    box-shadow: rgba(23, 162, 184, 0.5) 0px 0px 0px 0.2rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+::placeholder {
+    color: rgb(182, 182, 182);
+}
+
+.form-control {
+    background-color: transparent;
+}
+
+.form-control:focus {
+    border-color: rgb(128, 189, 255);
+    box-shadow: 0 0 0 transparent;
+    background-color: transparent;
+}
+
+nav button {
+    color: #929a9f;
+}
+
+#username {
+    font-size: 65px;
+}
+
+.welcome h1 {
+    font-size: 4rem;
+}

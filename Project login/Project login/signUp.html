@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+    <title>signup</title>
+  </head>
+
+  <body>
+
+
+
+
+    <section>
+      <main class="d-flex justify-content-center align-items-center">
+
+
+        <!--title-->
+        <div class="w-50 group mt-5 p-5">
+          <h1 class="text-center">Smart Login System</h1>
+          <div class="w-100">
+
+
+            <!--Name-->
+            <input
+              class="form-control my-3 text-white"
+              type="text"
+              name=""
+              id="signupName" 
+              placeholder="Enter Your Name"
+            />
+
+
+            <!--Regex-->
+            <div class="alert alert-danger d-none py-0 mt-2">
+              <small>Name Must start with capital csarcter</small>
+            </div>
+
+
+
+            <!--email-->
+            <input
+              class="form-control my-3 text-white"
+              type="email"
+              name=""
+              id="signupEmail"
+              placeholder="Enter Your Email"
+            />
+
+
+            <!--Regex-->
+            <div class="alert alert-danger d-none py-0 mt-2">
+              <small>Email must ba a valid</small>
+            </div>
+
+
+
+
+            <!--password-->
+            <input
+              class="form-control text-white"
+              type="password"
+              name="password"
+              id="signupPassword"
+              placeholder="Enter Your Password"
+            />
+
+
+
+            <!--Regex-->
+            <div class="alert alert-danger d-none py-0 mt-2">
+              <small>password must be cosisit of 8 charter</small>
+            </div>
+
+
+
+            <!--btn-->
+            <button id="signupBtn" class="btn btn-outline-info w-100 mt-4">
+              SignUp
+            </button>
+
+
+
+            <p class="text-center text-white mt-3">
+              Don't have an account?<a
+                class="text-white text-decoration-none"
+                href="login.html"
+                >Signin</a
+              >
+            </p>
+
+
+            <!--Regex-->
+            <div class="d-flex justify-content-center align-items-center p-0">
+              <h5 class="d-none alert text-danger" id="signUpMessage">
+                All inputs is Requried
+              </h5>
+            </div>
+
+
+            <!--Regex-->
+            <div class="d-flex justify-content-center align-items-center p-0">
+              <h5 class="d-none alert text-success" id="success">sucess</h5>
+              <h5 class="d-none alert text-danger" id="mailExist">This Email is Exist</h5>
+            </div>
+
+
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
